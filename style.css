@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@500&family=Poppins&family=Roboto:wght@300&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/islamiamain.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+.logo{
+    border-radius: 100px;
+    background: white;
+    position: absolute;
+    width: 140px;
+    margin-left: 30px;
+}
+.islamia{
+    position: relative;
+    top: 0.9%;
+    left: calc(47% - 50px);
+}
+h1{
+    text-align: center;
+}
+.login-box{
+    background: white;
+    height: 440px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    right: 0%;
+    position: absolute;
+    border-radius: 20px;
+    padding-top: 40px;
+}
+.login-content{
+    display: grid;
+    justify-content: center;
+}
+.btn1{
+    background-color: rgb(106, 106, 233);
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.href1{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    background-color:  rgb(106, 106, 233);
+    padding: 10px;
+    height: 70px;
+    font-size: larger;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    padding-top: 14px;
+    padding-right: 80px;
+}
+.navbar li{
+    display: inline;
+    margin-right: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
